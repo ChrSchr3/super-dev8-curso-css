@@ -3,3 +3,11 @@ shfit + alt + f = organiza prog
 alt + setas = muda a linha de lugar
 ctrl + d = alteras codigos mutiplicos
 ctrl + ; = barrar linhas ( comentario )
+ctrl + w = fecha todos as guias do vscode
+
+
+
+emmet - ptbr ver como fazer
+
+
+vscode-icons = estilização das pastas do vs code
