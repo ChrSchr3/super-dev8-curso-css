@@ -1,0 +1,94 @@
+.demonstracao{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 220px;
+    height: 100px;
+    margin: 6px;
+    padding: 8px;
+}
+
+
+/* top => parte de cima
+right => direita
+botton => parte de baixo
+left => esquerda */
+
+.borda-solid{
+    border-top-style: solid;
+    border-top-color: #000;
+    border-top-width: 1px;
+
+    border-right-style: solid;
+    border-right-color: #000;
+    border-right-width: 1px;
+    
+    border-bottom-style: solid;
+    border-bottom-color: #000;
+    border-bottom-width: 1px;
+
+    border-left-style: solid;
+    border-left-color: #000;
+    border-left-width: 1px;
+}
+.borda-dashed{
+    /* Shorthand */
+border-top: 4px dashed #f59e0b;
+border-right: 4px dashed #f59e0b;
+border-bottom:4px dashed #f59e0b;
+border-left:4px dashed #f59e0b;
+}
+
+.borda-dotted{
+    /* cima, direita, baixo, esquerda */
+    border-width: 6px 6px 6px 6px;
+    border-style: dotted dotted dotted dotted ;
+    border-color:  #ef4444 hsl(63, 70%, 41%) #33772d #8844ef;
+    border-radius: 100px 50px;
+}
+
+.borda-double{
+/* cima/baixo(6px) direita/esquerda(8px) */
+border-width: 6px 8px;
+border-color: #7c3aed;
+border-style: double;
+}
+
+.borda-groove{
+/* cima/direita/baixo/esquerda */
+/* border-width 8px
+border-color: #3b82f6;
+border-style: groover; */
+border: 8px #3b82f6 groove
+}
+
+.borda-ridge{
+/* border-top: 4px ridge #f59e0b;
+border-right: 4px ridge #f59e0b;
+border-bottom:4px ridge #f59e0b;
+border-left:4px ridge #f59e0b; */
+border: 8px #10b981 ridge
+}
+
+.borda-inset{
+/* border-top: 4px inset #f50b0b;
+border-right: 4px inset #f50b0b;
+border-bottom:4px inset #f50b0b;
+border-left:4px inset #f50b0b; */
+border: #ec4899 inset;
+}
+
+.borda-outset{
+/* border-top: 4px outset #f50b0b;
+border-right: 4px outset #f50b0b;
+border-bottom:4px outset #f50b0b;
+border-left:4px outset #f50b0b; */
+border: #eab308 outset;
+/* border-radius: 10px 15px 20px 25px; */
+/* cima direita baixo esquerda */
+
+/* se os valores de cima/baixo e dir./esq. forem iguais tbm */
+/* border-radius: 10px 15px 10px 15px */
+border-radius: 10px 50px;
+}
+
